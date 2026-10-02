@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jewellery | LK Jewellery</title>
+  <meta name="description" content="Browse hallmarked gold and diamond jewellery from LK Jewellery, Puri: rings, necklace sets, earrings, bangles and mangalsutras. Enquire on WhatsApp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Montserrat:wght@400;500;600&family=Allura&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- SVG icon sprite -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="sprite" aria-hidden="true">
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 8h12l1 13H5L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.800-7 11-7 11Z"/><circle cx="12" cy="10" r="2.500"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="m12 3 8 4.500v9L12 21l-8-4.500v-9L12 3Z"/><path d="m4 7.500 8 4.500 8-4.500M12 12v9"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20.500s-8-4.900-8-10.800A4.700 4.700 0 0 1 12 6.600a4.700 4.700 0 0 1 8 3.100c0 5.900-8 10.800-8 10.800Z"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.800-3.800"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path d="m15 6-6 6 6 6"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-diamond" viewBox="0 0 24 24"><path d="M7 4h10l4 5.500L12 21 3 9.500 7 4Z"/><path d="M3 9.500h18M9.500 4 8 9.500 12 21l4-11.500L14.500 4"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4.500 6v5.500c0 4.600 3.100 8 7.500 9.500 4.400-1.500 7.500-4.900 7.500-9.500V6L12 3Z"/><path d="m8.800 12 2.300 2.300 4.200-4.500"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M2 6h12v10H2zM14 9h4l4 4v3h-8z"/><circle cx="6.500" cy="17.500" r="1.800"/><circle cx="17.500" cy="17.500" r="1.800"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 1-14.300 4.900M4 12a8 8 0 0 1 14.300-4.900"/><path d="M18.500 3v4.300h-4.300M5.500 21v-4.300h4.300"/></symbol>
+    <symbol id="i-headset" viewBox="0 0 24 24"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="2.500" y="13" width="4" height="6" rx="1.500"/><rect x="17.500" y="13" width="4" height="6" rx="1.500"/><path d="M19.500 19c0 1.700-2.500 2.500-5.500 2.500"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4.500"/><circle cx="12" cy="12" r="3.500"/><circle cx="16.600" cy="7.400" r=".6" fill="currentColor"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M14 8.500V7c0-.8.500-1.200 1.300-1.200H17V3h-2.300C12.200 3 11 4.600 11 6.800v1.700H9V11h2v10h3V11h2.300l.4-2.500H14Z"/></symbol>
+    <symbol id="i-pinterest" viewBox="0 0 24 24"><path d="M10 21c.8-2.800 1.500-5.600 2-8.500"/><path d="M8.500 14.300c-1-1-1.500-2.300-1.500-3.800 0-3 2.200-5.500 5.300-5.500 2.800 0 4.700 1.900 4.700 4.600 0 3-1.600 5.400-3.800 5.400-1.200 0-2-.8-2.200-1.700"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="3.500"/><path d="m10.500 9.500 4.200 2.500-4.200 2.500v-5Z" fill="currentColor"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19c0-9 5-14 15-14 0 10-5 15-14 14Z"/><path d="M4 21c2-5 5-8 10-11"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.500"/><path d="M2.500 20a6.500 6.500 0 0 1 13 0"/><path d="M16 4.800a3.500 3.500 0 0 1 0 6.400M18 14.200a6.500 6.500 0 0 1 3.500 5.800"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12.200 2.700 2.700L16 9.500"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></symbol>
+    <symbol id="i-logo" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="1.400">
+        <ellipse cx="24" cy="12.500" rx="5" ry="9.500"/>
+        <ellipse cx="24" cy="12.500" rx="5" ry="9.500" transform="rotate(45 24 24)"/>
+        <ellipse cx="24" cy="12.500" rx="5" ry="9.500" transform="rotate(90 24 24)"/>
+        <ellipse cx="24" cy="12.500" rx="5" ry="9.500" transform="rotate(135 24 24)"/>
+        <ellipse cx="24" cy="12.500" rx="5" ry="9.500" transform="rotate(180 24 24)"/>
+        <ellipse cx="24" cy="12.500" rx="5" ry="9.500" transform="rotate(225 24 24)"/>
+        <ellipse cx="24" cy="12.500" rx="5" ry="9.500" transform="rotate(270 24 24)"/>
+        <ellipse cx="24" cy="12.500" rx="5" ry="9.500" transform="rotate(315 24 24)"/>
+        <circle cx="24" cy="24" r="3"/>
+      </g>
+    </symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <ul class="topbar__list">
+        <li><svg class="icon"><use href="#i-bag"/></svg>Free Shipping on all orders</li>
+        <li class="topbar__sep">Certified BIS Hallmarked Jewellery</li>
+      </ul>
+      <ul class="topbar__list topbar__list--links">
+        <li><a href="#store"><svg class="icon"><use href="#i-pin"/></svg>Store Locator</a></li>
+        <li><a href="#"><svg class="icon"><use href="#i-box"/></svg>Track Order</a></li>
+        <li><a href="#"><svg class="icon"><use href="#i-heart"/></svg><span>Wishlist (<span data-wishlist-count>0</span>)</span></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="index.html" aria-label="LK Jewellery home">
+        <img class="logo__mark" src="assets/lk-logo.webp" width="64" height="64" alt="">
+        <span class="logo__text"><span class="logo__name">LK</span><span class="logo__sub">JEWELLERY</span></span>
+      </a>
+
+      <nav class="nav" id="primary-nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li class="nav__item--has-menu">
+            <button class="nav__link" type="button" aria-expanded="false">Collections <svg class="icon icon--sm"><use href="#i-chevron"/></svg></button>
+            <ul class="nav__menu">
+              <li><a href="collections.html">All Collections</a></li>
+              <li><a href="collections.html#bridal">Bridal</a></li>
+              <li><a href="collections.html#diamond">Diamond</a></li>
+              <li><a href="collections.html#heritage">Heritage</a></li>
+              <li><a href="collections.html#daily-wear">Daily Wear</a></li>
+              <li><a href="collections.html#custom">Custom Orders</a></li>
+            </ul>
+          </li>
+          <li class="nav__item--has-menu">
+            <button class="nav__link is-active" type="button" aria-expanded="false">Jewellery <svg class="icon icon--sm"><use href="#i-chevron"/></svg></button>
+            <ul class="nav__menu">
+              <li><a href="jewellery.html">All Jewellery</a></li>
+              <li><a href="jewellery.html?cat=rings">Rings</a></li>
+              <li><a href="jewellery.html?cat=necklaces">Necklaces</a></li>
+              <li><a href="jewellery.html?cat=earrings">Earrings</a></li>
+              <li><a href="jewellery.html?cat=bangles">Bangles</a></li>
+              <li><a href="jewellery.html?cat=mangalsutra">Mangalsutra</a></li>
+            </ul>
+          </li>
+          <li><a class="nav__link" href="#">About Us</a></li>
+          <li><a class="nav__link" href="#">Blog</a></li>
+          <li><a class="nav__link" href="#footer">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <button class="icon-btn" type="button" aria-label="Search"><svg class="icon"><use href="#i-search"/></svg></button>
+        <a class="icon-btn" href="#" aria-label="Account"><svg class="icon"><use href="#i-user"/></svg></a>
+        <a class="icon-btn icon-btn--cart" href="#" aria-label="Cart, 0 items"><svg class="icon"><use href="#i-bag"/></svg><span class="badge" aria-hidden="true">0</span></a>
+        <button class="icon-btn nav-toggle" type="button" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false">
+          <svg class="icon nav-toggle__open"><use href="#i-menu"/></svg>
+          <svg class="icon nav-toggle__close"><use href="#i-close"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="container page-hero__inner">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">Jewellery</span></nav>
+        <p class="eyebrow">916 Gold · Diamond · Silver</p>
+        <h1 class="page-hero__title">The Jewellery <em>Edit</em></h1>
+        <p class="page-hero__text">Hallmarked pieces from our Puri showroom — rings, necklace sets, earrings and traditional work, each one available to enquire about directly on WhatsApp.</p>
+        <ul class="page-hero__facts">
+          <li><strong>1992</strong><span>Trusted since</span></li>
+          <li><strong>BIS · HUID</strong><span>Hallmarked gold</span></li>
+          <li><strong>Pan-India</strong><span>Safe, secure delivery</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="catalogue-wrap">
+    <div class="filters">
+      <div class="container">
+        <div class="filters__inner" role="group" aria-label="Filter jewellery by category">
+          <button class="chip is-active" type="button" data-filter="all" aria-pressed="true">All <span>8</span></button>
+          <button class="chip" type="button" data-filter="rings" aria-pressed="false">Rings <span>3</span></button>
+          <button class="chip" type="button" data-filter="necklaces" aria-pressed="false">Necklaces <span>1</span></button>
+          <button class="chip" type="button" data-filter="earrings" aria-pressed="false">Earrings <span>2</span></button>
+          <button class="chip" type="button" data-filter="bangles" aria-pressed="false">Bangles <span>1</span></button>
+          <button class="chip" type="button" data-filter="mangalsutra" aria-pressed="false">Mangalsutra <span>1</span></button>
+        </div>
+      </div>
+    </div>
+
+    <section class="section catalogue" aria-labelledby="catalogue-title">
+      <div class="container">
+        <div class="catalogue__head">
+          <h2 class="section__title" id="catalogue-title">Our Pieces</h2>
+          <p class="catalogue__count" role="status" data-count>8 pieces</p>
+        </div>
+
+        <ul class="products" data-catalogue>
+          <li class="product" data-cat="rings">
+            <span class="tag tag--new">New</span>
+            <button class="wish" type="button" aria-pressed="false" aria-label="Add Casting Rings Collection to wishlist"><svg class="icon icon--sm"><use href="#i-heart"/></svg></button>
+            <a class="product__media" href="https://www.instagram.com/lk_jewellers_puri/reel/Dd6Tt1PhKpd/" target="_blank" rel="noopener"><img loading="lazy" width="360" height="360" alt="Lightweight gold casting rings in LK Jewellers boxes" src="assets/products/casting-rings.jpg"></a>
+            <div class="product__body">
+              <h3 class="product__name"><a href="https://www.instagram.com/lk_jewellers_puri/reel/Dd6Tt1PhKpd/" target="_blank" rel="noopener">Casting Rings Collection</a></h3>
+              <p class="product__spec">916 HUID Hallmarked · 2–3 g</p>
+              <a class="product__enquire" href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20am%20interested%20in%20the%20Casting%20Rings%20Collection%20I%20saw%20on%20your%20website.%20Please%20share%20the%20price%20and%20details." target="_blank" rel="noopener"><svg class="icon"><use href="#i-whatsapp"/></svg>Enquire Now<span class="sr-only"> on WhatsApp</span></a>
+            </div>
+          </li>
+          <li class="product" data-cat="rings">
+            <span class="tag tag--new">New</span>
+            <button class="wish" type="button" aria-pressed="false" aria-label="Add Custom Design Gents Ring to wishlist"><svg class="icon icon--sm"><use href="#i-heart"/></svg></button>
+            <a class="product__media" href="https://www.instagram.com/lk_jewellers_puri/reel/Dd0IhE7BvBf/" target="_blank" rel="noopener"><img loading="lazy" width="360" height="360" alt="Wide gold ring with black inlay and a floral motif" src="assets/products/gents-ring.jpg"></a>
+            <div class="product__body">
+              <h3 class="product__name"><a href="https://www.instagram.com/lk_jewellers_puri/reel/Dd0IhE7BvBf/" target="_blank" rel="noopener">Custom Design Gents Ring</a></h3>
+              <p class="product__spec">Designed &amp; made to order</p>
+              <a class="product__enquire" href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20am%20interested%20in%20the%20Custom%20Design%20Gents%20Ring%20I%20saw%20on%20your%20website.%20Please%20share%20the%20price%20and%20details." target="_blank" rel="noopener"><svg class="icon"><use href="#i-whatsapp"/></svg>Enquire Now<span class="sr-only"> on WhatsApp</span></a>
+            </div>
+          </li>
+          <li class="product" data-cat="mangalsutra">
+            <span class="tag tag--new">New</span>
+            <button class="wish" type="button" aria-pressed="false" aria-label="Add Bespoke Mangalsutra to wishlist"><svg class="icon icon--sm"><use href="#i-heart"/></svg></button>
+            <a class="product__media" href="https://www.instagram.com/lk_jewellers_puri/reel/DdympyMhgGf/" target="_blank" rel="noopener"><img loading="lazy" width="360" height="360" alt="Gold mangalsutra with a large filigree pendant" src="assets/products/mangalsutra.jpg"></a>
+            <div class="product__body">
+              <h3 class="product__name"><a href="https://www.instagram.com/lk_jewellers_puri/reel/DdympyMhgGf/" target="_blank" rel="noopener">Bespoke Mangalsutra</a></h3>
+              <p class="product__spec">Custom made on order</p>
+              <a class="product__enquire" href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20am%20interested%20in%20the%20Bespoke%20Mangalsutra%20I%20saw%20on%20your%20website.%20Please%20share%20the%20price%20and%20details." target="_blank" rel="noopener"><svg class="icon"><use href="#i-whatsapp"/></svg>Enquire Now<span class="sr-only"> on WhatsApp</span></a>
+            </div>
+          </li>
+          <li class="product" data-cat="necklaces">
+            <span class="tag tag--new">New</span>
+            <button class="wish" type="button" aria-pressed="false" aria-label="Add 22K Gold Necklace Set to wishlist"><svg class="icon icon--sm"><use href="#i-heart"/></svg></button>
+            <a class="product__media" href="https://www.instagram.com/lk_jewellers_puri/reel/DdxosVJhNXG/" target="_blank" rel="noopener"><img loading="lazy" width="360" height="360" alt="22K gold necklace set with matching earrings on a display bust" src="assets/products/necklace-set-22k.jpg"></a>
+            <div class="product__body">
+              <h3 class="product__name"><a href="https://www.instagram.com/lk_jewellers_puri/reel/DdxosVJhNXG/" target="_blank" rel="noopener">22K Gold Necklace Set</a></h3>
+              <p class="product__spec">BIS HUID Hallmarked · with earrings</p>
+              <a class="product__enquire" href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20am%20interested%20in%20the%2022K%20Gold%20Necklace%20Set%20I%20saw%20on%20your%20website.%20Please%20share%20the%20price%20and%20details." target="_blank" rel="noopener"><svg class="icon"><use href="#i-whatsapp"/></svg>Enquire Now<span class="sr-only"> on WhatsApp</span></a>
+            </div>
+          </li>
+          <li class="product" data-cat="rings">
+            <span class="tag tag--best">Bestseller</span>
+            <button class="wish" type="button" aria-pressed="false" aria-label="Add VVS-EF Diamond Ring to wishlist"><svg class="icon icon--sm"><use href="#i-heart"/></svg></button>
+            <a class="product__media" href="https://www.instagram.com/lk_jewellers_puri/reel/DdveILpsORm/" target="_blank" rel="noopener"><img loading="lazy" width="360" height="360" alt="Gold ring set with VVS-EF diamonds" src="assets/products/diamond-ring.jpg"></a>
+            <div class="product__body">
+              <h3 class="product__name"><a href="https://www.instagram.com/lk_jewellers_puri/reel/DdveILpsORm/" target="_blank" rel="noopener">VVS-EF Diamond Ring</a></h3>
+              <p class="product__spec">750 HUID Hallmarked gold</p>
+              <a class="product__enquire" href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20am%20interested%20in%20the%20VVS-EF%20Diamond%20Ring%20I%20saw%20on%20your%20website.%20Please%20share%20the%20price%20and%20details." target="_blank" rel="noopener"><svg class="icon"><use href="#i-whatsapp"/></svg>Enquire Now<span class="sr-only"> on WhatsApp</span></a>
+            </div>
+          </li>
+          <li class="product" data-cat="earrings">
+            <span class="tag tag--best">Bestseller</span>
+            <button class="wish" type="button" aria-pressed="false" aria-label="Add Fusion Earrings to wishlist"><svg class="icon icon--sm"><use href="#i-heart"/></svg></button>
+            <a class="product__media" href="https://www.instagram.com/lk_jewellers_puri/reel/Ddf50kHByKM/" target="_blank" rel="noopener"><img loading="lazy" width="360" height="360" alt="Pair of gold fusion earrings held in a hand" src="assets/products/fusion-earrings.jpg"></a>
+            <div class="product__body">
+              <h3 class="product__name"><a href="https://www.instagram.com/lk_jewellers_puri/reel/Ddf50kHByKM/" target="_blank" rel="noopener">Fusion Earrings</a></h3>
+              <p class="product__spec">916 HUID Hallmarked · New collection</p>
+              <a class="product__enquire" href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20am%20interested%20in%20the%20Fusion%20Earrings%20I%20saw%20on%20your%20website.%20Please%20share%20the%20price%20and%20details." target="_blank" rel="noopener"><svg class="icon"><use href="#i-whatsapp"/></svg>Enquire Now<span class="sr-only"> on WhatsApp</span></a>
+            </div>
+          </li>
+          <li class="product" data-cat="bangles">
+            <span class="tag tag--best">Bestseller</span>
+            <button class="wish" type="button" aria-pressed="false" aria-label="Add Traditional Naksha Ruli to wishlist"><svg class="icon icon--sm"><use href="#i-heart"/></svg></button>
+            <a class="product__media" href="https://www.instagram.com/lk_jewellers_puri/reel/DdSvdnrh0Oe/" target="_blank" rel="noopener"><img loading="lazy" width="360" height="360" alt="Pair of traditional gold Naksha Ruli bangles" src="assets/products/naksha-ruli.jpg"></a>
+            <div class="product__body">
+              <h3 class="product__name"><a href="https://www.instagram.com/lk_jewellers_puri/reel/DdSvdnrh0Oe/" target="_blank" rel="noopener">Traditional Naksha Ruli</a></h3>
+              <p class="product__spec">49 g approx. · Made on order</p>
+              <a class="product__enquire" href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20am%20interested%20in%20the%20Traditional%20Naksha%20Ruli%20I%20saw%20on%20your%20website.%20Please%20share%20the%20price%20and%20details." target="_blank" rel="noopener"><svg class="icon"><use href="#i-whatsapp"/></svg>Enquire Now<span class="sr-only"> on WhatsApp</span></a>
+            </div>
+          </li>
+          <li class="product" data-cat="earrings">
+            <span class="tag tag--best">Bestseller</span>
+            <button class="wish" type="button" aria-pressed="false" aria-label="Add Premium Gold Earrings to wishlist"><svg class="icon icon--sm"><use href="#i-heart"/></svg></button>
+            <a class="product__media" href="https://www.instagram.com/lk_jewellers_puri/reel/DdQmPBWh4SL/" target="_blank" rel="noopener"><img loading="lazy" width="360" height="360" alt="Pair of gold drop earrings with a weight tag" src="assets/products/fusion-earrings-2.jpg"></a>
+            <div class="product__body">
+              <h3 class="product__name"><a href="https://www.instagram.com/lk_jewellers_puri/reel/DdQmPBWh4SL/" target="_blank" rel="noopener">Premium Gold Earrings</a></h3>
+              <p class="product__spec">916 Hallmarked · 4.75 g</p>
+              <a class="product__enquire" href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20am%20interested%20in%20the%20Premium%20Gold%20Earrings%20I%20saw%20on%20your%20website.%20Please%20share%20the%20price%20and%20details." target="_blank" rel="noopener"><svg class="icon"><use href="#i-whatsapp"/></svg>Enquire Now<span class="sr-only"> on WhatsApp</span></a>
+            </div>
+          </li>
+        </ul>
+
+        <div class="empty" data-empty hidden>
+          <svg class="icon icon--xl"><use href="#i-diamond"/></svg>
+          <h3>Our <span data-empty-name>pieces</span> are in the showroom</h3>
+          <p>We haven’t photographed these for the website yet. Message us and we’ll send you the designs we have in stock.</p>
+          <a class="btn btn--primary btn--sm" href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20am%20looking%20for%20a%20piece%20I%20could%20not%20find%20on%20your%20website.%20Please%20share%20the%20designs%20you%20have." target="_blank" rel="noopener"><svg class="icon"><use href="#i-whatsapp"/></svg>Ask on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    </div>
+
+    <section class="section instore" aria-labelledby="instore-title">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <p class="eyebrow">More in our showroom</p>
+            <h2 class="section__title" id="instore-title">Ask Us About</h2>
+          </div>
+        </div>
+        <ul class="instore__list">
+          <li><a href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20would%20like%20to%20see%20your%20Emerald%20Rings.%20Please%20share%20designs%20and%20prices." target="_blank" rel="noopener">Emerald Rings <svg class="icon icon--sm"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20would%20like%20to%20see%20your%20Gents%20Rings.%20Please%20share%20designs%20and%20prices." target="_blank" rel="noopener">Gent’s Rings <svg class="icon icon--sm"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20would%20like%20to%20see%20your%20Jagannath%20Lockets.%20Please%20share%20designs%20and%20prices." target="_blank" rel="noopener">Jagannath Lockets <svg class="icon icon--sm"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20would%20like%20to%20see%20your%20Fancy%20Earrings.%20Please%20share%20designs%20and%20prices." target="_blank" rel="noopener">Fancy Earrings <svg class="icon icon--sm"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20would%20like%20to%20see%20your%20Diamond%20Rings.%20Please%20share%20designs%20and%20prices." target="_blank" rel="noopener">Diamond Rings <svg class="icon icon--sm"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20would%20like%20to%20see%20your%20Gold%20Baju.%20Please%20share%20designs%20and%20prices." target="_blank" rel="noopener">Gold Baju <svg class="icon icon--sm"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20would%20like%20to%20see%20your%20Diamond%20Necklaces.%20Please%20share%20designs%20and%20prices." target="_blank" rel="noopener">Diamond Necklaces <svg class="icon icon--sm"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20would%20like%20to%20see%20your%20Diamond%20Earrings.%20Please%20share%20designs%20and%20prices." target="_blank" rel="noopener">Diamond Earrings <svg class="icon icon--sm"><use href="#i-arrow"/></svg></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="bespoke" aria-labelledby="bespoke-title">
+      <div class="container bespoke__inner">
+        <div class="bespoke__media"><img loading="lazy" width="1586" height="992" alt="Woman wearing a gold choker, long necklace and jhumka earrings beside a necklace display" src="assets/hero-3.webp"></div>
+        <div class="bespoke__body">
+          <p class="eyebrow">Made on order</p>
+          <h2 class="bespoke__title" id="bespoke-title">Have a design <em>in mind?</em></h2>
+          <p>Bring us a sketch, a photo or just an idea. Our craftsmen make mangalsutras, Naksha work, rings and full sets to order.</p>
+          <a class="btn btn--light" href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20would%20like%20to%20place%20a%20custom%20order.%20Here%20is%20what%20I%20have%20in%20mind%3A" target="_blank" rel="noopener"><svg class="icon"><use href="#i-whatsapp"/></svg>Start a custom order</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Store location -->
+    <section class="section store" id="store" aria-labelledby="store-title">
+      <div class="container store__inner">
+        <div class="store__body">
+          <p class="eyebrow">Visit our showroom</p>
+          <h2 class="section__title" id="store-title">Find Us in Puri</h2>
+          <p class="store__text">See the full collection in person, try pieces on and talk to our team about custom orders.</p>
+          <ul class="store__details">
+            <li><svg class="icon"><use href="#i-pin"/></svg><div><h3>Showroom</h3><p>LK Jewellers (Lankeswari Jewellery)<br>Puri, Odisha</p></div></li>
+            <li><svg class="icon"><use href="#i-headset"/></svg><div><h3>Call or WhatsApp</h3><p><a href="tel:+919777058272">+91 97770 58272</a></p></div></li>
+          </ul>
+          <div class="store__actions">
+            <a class="btn btn--primary" href="https://www.google.com/maps?cid=8657708781973610324" target="_blank" rel="noopener"><svg class="icon"><use href="#i-pin"/></svg>Visit Store</a>
+            <a class="btn btn--outline" href="https://wa.me/919777058272?text=Hello%20LK%20Jewellers%2C%20I%20would%20like%20to%20visit%20your%20store.%20Please%20share%20your%20timings." target="_blank" rel="noopener"><svg class="icon"><use href="#i-whatsapp"/></svg>Message us</a>
+          </div>
+        </div>
+        <div class="store__map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15013.866431054133!2d85.8281905!3d19.8202003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19c6b0782bc4cd%3A0x78265c4446511f54!2sLK%20JEWELLERS%20(Lankeswari%20Jewellery)!5e0!3m2!1sen!2sin!4v1790971390480!5m2!1sen!2sin" title="Map showing LK Jewellers (Lankeswari Jewellery) in Puri" loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Assurances -->
+    <section class="assure" aria-label="Why shop with us">
+      <ul class="container assure__list">
+        <li><svg class="icon icon--xl"><use href="#i-diamond"/></svg><div><h3>Certified Jewellery</h3><p>BIS Hallmarked<br>Authentic &amp; Trusted</p></div></li>
+        <li><svg class="icon icon--xl"><use href="#i-refresh"/></svg><div><h3>Easy Returns</h3><p>15 Days Return<br>No Questions Asked</p></div></li>
+        <li><svg class="icon icon--xl"><use href="#i-shield"/></svg><div><h3>Lifetime Exchange</h3><p>Exchange or Upgrade<br>Anytime</p></div></li>
+        <li><svg class="icon icon--xl"><use href="#i-headset"/></svg><div><h3>Customer Support</h3><p>We’re here to help<br><a href="tel:+919777058272">+91 97770 58272</a></p></div></li>
+      </ul>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter" aria-labelledby="news-title">
+      <div class="container newsletter__inner">
+        <div>
+          <h2 class="newsletter__title" id="news-title">Stay Connected</h2>
+          <p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+        </div>
+        <form class="subscribe" novalidate>
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="Enter your email" required aria-describedby="subscribe-msg">
+          <button class="btn btn--primary btn--square" type="submit">Subscribe</button>
+          <p class="subscribe__msg" id="subscribe-msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="logo logo--light" href="index.html" aria-label="LK Jewellery home">
+          <img class="logo__mark" src="assets/lk-logo.webp" width="64" height="64" alt="">
+          <span class="logo__text"><span class="logo__name">LK</span><span class="logo__sub">JEWELLERY</span></span>
+        </a>
+        <p>Exquisite jewellery crafted with passion, precision and timeless elegance.</p>
+        <ul class="social">
+          <li><a href="https://www.instagram.com/lk_jewellers_puri/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="icon icon--sm"><use href="#i-instagram"/></svg></a></li>
+          <li><a href="#" aria-label="Facebook"><svg class="icon icon--sm"><use href="#i-facebook"/></svg></a></li>
+          <li><a href="#" aria-label="Pinterest"><svg class="icon icon--sm"><use href="#i-pinterest"/></svg></a></li>
+          <li><a href="#" aria-label="YouTube"><svg class="icon icon--sm"><use href="#i-youtube"/></svg></a></li>
+        </ul>
+      </div>
+      <nav class="footer__col" aria-label="Quick links">
+        <h3>Quick Links</h3>
+        <ul><li><a href="index.html">Home</a></li><li><a href="collections.html">Collections</a></li><li><a href="jewellery.html">Jewellery</a></li><li><a href="#">About Us</a></li><li><a href="#">Contact Us</a></li></ul>
+      </nav>
+      <nav class="footer__col" aria-label="Customer service">
+        <h3>Customer Service</h3>
+        <ul><li><a href="#">Track Order</a></li><li><a href="#">Shipping &amp; Delivery</a></li><li><a href="#">Returns &amp; Exchange</a></li><li><a href="#">FAQ’s</a></li><li><a href="#">Size Guide</a></li></ul>
+      </nav>
+      <nav class="footer__col" aria-label="Information">
+        <h3>Information</h3>
+        <ul><li><a href="#">Blog</a></li><li><a href="#store">Store Locator</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms &amp; Conditions</a></li></ul>
+      </nav>
+      <div class="footer__col footer__col--pay">
+        <h3>We Accept</h3>
+        <ul class="pay">
+          <li class="pay__visa">VISA</li>
+          <li class="pay__mc" aria-label="Mastercard"><span></span><span></span></li>
+          <li class="pay__rupay">RuPay</li>
+          <li class="pay__upi">UPI</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="container">© 2025 LK Jewellery. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
